@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:white;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: yellow;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+         h1 {
+            color:black;
+            text-decoration:underline;
+            font-family: sans-serif;
+            margin: 0;
+            text-transform:bold;
+            text-align:center;
+        }
+        div img{
+            border-radius:100px;;
+        }
+
+         div h2{
+            color:grey;
+            text-align:justify;
+        }
+           .container {
+                 display: flex;
+                 justify-content: space-around; 
+                 padding: 20px;
+            }
+
+            .card {
+               padding: 40px;
+               border: 1px solid #333;
+               border-radius:50px;
+               background-color:silver; 
+            }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 20px;
+            font-family:sans-serif;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color:silver;
+            border: 1px solid #ddd;
+        }
+        #PORTFOLIO{
+            text-decoration:bold;
+            background-color:grey;
+        }
+        #PORTFOLIO h1{
+            text-align:center;
+        }
+        #ABOUT{
+            background-color:grey;
+        }
+         #ABOUT div p{
+            border-width:3px;
+            border-radius:10px;
+            padding:2px;
+            text-align:left;
+            text-transform:bold;
+            color:grey;
+         }
+         #about h1{
+            text-align:center;
+         }
+         #services{
+            background-color:silver;
+         }
+
+         #services h1{
+            text-align:center;
+            text-transform:bold;
+         }
+         #services div{
+            text-align:center;
+            border-radius:20px;
+            
+         }
+         #services h4{
+           text-align:bottom;
+           color:grey;
+         }
+         #contact h1{
+            text-align:center;
+         }
+         #contact {
+            text-align:center;
+            background-color:grey;
+         }
+
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: left;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+        footer h1{
+            text-align:left;
+        }
+        footer div{
+            text-align:center;
+            margin:20px;
+        }
+          @media only screen and (max-width: 600px) {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 1025px) {
+  max-width: 100%;
+  height: auto;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+         <h1>UI/UX<br>DESIGNER:-</br></h1>
+    </header>
+
+    <nav>
+        <a href="#home">HOME</a>
+         <a href="#PORTFOLIO">PORTFOLIO</a>
+        <a href="#ABOUT">ABOUT</a>
+        <a href="#services">SERVICES</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+     <div>
+        <section id="home">
+     <img src="./indexhtml_files/qv61dk20_1692464351725.gif" class="Fill grey banner-image" style="height:160px;width:160px;">
+
+    <h2>Hello! I'm Franklin, a passionate UI/UX designer with a flair for creating stunning and user-centric digital experiences. With a keen eye for detail and a knack for understanding user behavior, I bring ideas to life through captivating designs that bridge the gap between aesthetics and functionality.</h2>
+</div>
+    </section>
+
+<h1>SKILLS</h1>
+ <div class="container">
+    <div class="card"><h2>UX RESEARCH</h2> <img src="glass.jpg" alt="magnifying glass" width="100" height="100"></div>
+
+     <div class="card"><h2>WIRE FRAMMING</h2> <img src="frame.png" alt="wire framming" width="100" height="100"></div>
+
+    <div class="card"><h2>PROTOTYPING</h2> <img src="prototype.png" alt="prototyping" width="100" height="100"></div>
+
+  </div>
+
+
+    <section id="PORTFOLIO">
+        <h1>PORTFOLIO</h1>
+        <div class="container">
+    <div class="card"> <img src="data.jpg" alt="datavman" width="200" height="200"> <h2>DATAMAVEN</h2> </div>
+
+     <div class="card"> <img src="photo.jpg" alt="photorama" width="200" height="200"> <h2>PHOTORAMA</h2> </div>
+
+    <div class="card"> <img src="swedone.jpg" alt="swedone" width="200" height="200"> <h2>PROTOTYPING</h2> </div>
+</div>
+    </section>
+
+     <section id="ABOUT">
+        <h1>ABOUT US</h1>
+        <div>
+       <div class="card"> <h3>A GUIDE TO EFFECTIVE UX DESIGN</h3><p>digital experiences with resonate with users.</p></div>
+        <div class="card"> <h3>COLOUR PHYSIOLOGY IN UI DESIGN</h3><p>using color to engage in user interface.</p> </div>
+        <div class="card"> <h3>FROM SKETCH TO PROTOTYPE</h3><p>from design into interactive views.</p> </div>
+        </div> 
+    </section>
+
+    <section id="services">
+        <h1>SERVICES</h1>
+        <h3>PHILOSOPHY:-</h3>
+    
+        <h4>I believe that design is more than just aesthetics—it's about crafting meaningful experiences. My design approach combines creativity with empathy, placing the user at the heart of every decision. Whether it's creating intuitive user interfaces or mapping out user journeys, I aim to design products that resonate with people and enhance their interactions.</h4>
+        <div>
+       <img src="./indexhtml_files/6kkbjw0i_1692465903265.webp" class="Fill grey" width="500" height="500">
+    </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+
+<footer>
+
+<form id="contact ">
+
+    <div class="mb-5 row">
+        <div class="col">
+
+            <label>First Name</label>
+            <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
+        </div>
+
+        <div class="col">
+            <label>Last Name</label>
+            <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+        </div>
+    </div>
+    
+    <div class="mb-5 row">
+        <div class="col">
+            <label for="email_addr">Email address</label>
+            <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email" placeholder="name@example.com">
+        </div>
+
+        <div class="col">
+            <label for="phone_input">Phone</label>
+            <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone" placeholder="Phone">
+        </div>
+    </div>
+
+    <div class="mb-5">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary px-4 btn-lg">submit</button>
+</form>
+    </section>
+
+    </footer>
+
+</body>
+</html>
